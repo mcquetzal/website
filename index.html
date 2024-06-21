@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quetzal (Квезаль)</title>
+    <link rel="icon" type="image/png" href="media/favicon.png">
+    <link rel="stylesheet" href="media/style.css">
+    <link href="https://fonts.bunny.net/css?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </div>
+    <div class="mainflex">
+      <div class="main1">
+        <a class="main1_logo_a" href="#">
+          <img class="main1_logo" src="media/logo.png" alt="logo">
+        </a>
+        <div class="main1_description">
+          <a>Сервер, свободный от<br></a>
+          <a class="main1_actcent">гриферов и токсиков</a><a>.</a>
+        </div>
+        <div class="main1_ipcopier_div">
+          <button class="main1_ipcopier" onclick="document.location='https://dsc.gg/quetzal'" type="button">
+            <span class="main1_ipcopier_text1">Присоединиться</span>
+            <br>
+            <span class="main1_ipcopier_text2">Заполнить заявку</span>
+          </button>
+        </div>
+        <a href="#more" class="scroll">
+          <img alt="downarrow" class="main1_downarrow" src="media/downarrow.png">
+        </a>
+        <script>
+          const scrollLinks = document.querySelectorAll('.scroll');
+          scrollLinks.forEach(function(link) {
+            link.addEventListener('click', function(event) {
+              event.preventDefault();
+              const target = document.querySelector(link.getAttribute('href'));
+              const offsetTop = target.offsetTop;
+              window.scrollTo({
+                top: offsetTop,
+                behavior: 'smooth'
+              });
+            });
+          });
+        </script>
+      </div>
+      <div id="more"></div>
+      <div class="main2">
+        <a class="headline">Почему мы?</a>
+        <div class="main2_features_div">
+          <div class="main2_feature">
+            <img class="main2_feature_img" alt="Feature Image" src="media/perfomance.png">
+            <a class="main2_feature_headline">Высокая стабильность</a>
+            <a class="main2_feature_text">Мы постоянно работаем над улучшением производительности сервера, чтобы вы могли наслаждаться игрой без лагов и сбоев.</a>
+          </div>
+          <div class="main2_feature">
+            <img class="main2_feature_img" alt="Feature Image" src="media/admin.png">
+            <a class="main2_feature_headline">Адекватная администрация</a>
+            <a class="main2_feature_text">Администрация сервера не прикрывается своим статусом, а также не злоупотребляет полномочиями и возможностями</a>
+          </div>
+          <div class="main2_feature">
+            <img class="main2_feature_img" alt="Feature Image" src="media/community.png">
+            <a class="main2_feature_headline">Ламповое комьюнити</a>
+            <a class="main2_feature_text">Токсичные игроки на нашем сервере не задерживаются и быстро банятся поэтому на сервере царит ламповая атмосфера</a>
+          </div>
+          <div class="main2_feature">
+            <img class="main2_feature_img" alt="Feature Image" src="media/bank.png">
+            <a class="main2_feature_headline">Своя банковская система</a>
+            <a class="main2_feature_text">Удобство и технологичность. Разработана специально для Quetzal. Постоянно улучшается.</a>
+          </div>
+          <div class="main2_feature">
+            <img class="main2_feature_img" alt="Feature Image" src="media/rules.png">
+            <a class="main2_feature_headline">Простые правила</a>
+            <a class="main2_feature_text">На сервере не строгая модерация. Ты не получишь бан по пустякам. Просто веди себя хорошо <3</a>
+          </div>
+        </div>
+      </div>
+      <div id="discord"></div>
+      <div class="main4">
+        <a class="headline">Discord-сообщество</a>
+        <div class="main4_dc_div">
+          <!-- <img class="main4_dc_widget" src="media/discord.png" alt="Discord Widget" width="350" height="500"> -->
+		  <div class="discord-widget">
+  <iframe src="https://discord.com/widget?id=1191458409757802516&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+</div>
+          <div class="main4_dc_description_div">
+            <a class="main4_dc_description_title">Присоединяйся!</a>
+            <a class="main4_dc_description"> ・Общайся с другими игроками <br> ・Делись своими идеями <br> ・Не пропускай изменения на сервере <br> ・Учавствуй в жизни сервера  <br><br></a>
+            <a href="https://discord.gg/INVITE" class="main4_dc_button_a">
+              <div class="main4_dc_button">Присоединиться</div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="about"></div>
+        </div>
+      </div>
+      <div id="join"></div>
+      <div class="main3">
+        <a class="headline">Как присоединиться?</a>
+        <div class="main3_join_div_div">
+          <div class="main3_join_div">
+            <a class="main3_join_title">Java</a>
+            <div class="main3_join_content_div">
+              <div class="main3_join_categories">
+                <a>Айпи:</a>
+                <a>Версия:</a>
+              </div>
+              <div class="main3_join_values">
+                <a>mc.quetzal.m1rmen.tech</a>
+                <a>1.20.4</a>
+              </div>
+            </div>
+          </div>
+          <div class="main3_join_div">
+            <a class="main3_join_title">Bedrock</a>
+            <div class="main3_join_content_div">
+              <div class="main3_join_categories">
+                <a>Айпи:</a>
+                <a>Порт:</a>
+              </div>
+              <div class="main3_join_values">
+                <a>be.quetzal.m1rmen.tech</a>
+                <a>30452</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="copyright_div">
+	  <a href="https://m1rmen.tech" class="copyright">Not an official Minecraft product. We are in no way affiliated with or endorsed by Mojang Synergies AB, Microsoft Corporation or other rightsholders.<br>© Quetzal, 2024<br>Deisgned by m1rmen ♥</a>
+    </footer>
+  </body>
+</html>
